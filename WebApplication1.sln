@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication1", "src\WebApplication1\WebApplication1.xproj", "{3CAEF285-125F-4C89-91D8-F5A7ABE99CF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packcage", "Packcage", "{C5433BF8-FDF5-4905-88C6-21A28655825E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPackage", "TestPackage\TestPackage.csproj", "{238C38BA-D3EC-4253-B6F8-64DFDBD9971A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{3CAEF285-125F-4C89-91D8-F5A7ABE99CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CAEF285-125F-4C89-91D8-F5A7ABE99CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CAEF285-125F-4C89-91D8-F5A7ABE99CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238C38BA-D3EC-4253-B6F8-64DFDBD9971A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238C38BA-D3EC-4253-B6F8-64DFDBD9971A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238C38BA-D3EC-4253-B6F8-64DFDBD9971A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238C38BA-D3EC-4253-B6F8-64DFDBD9971A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3CAEF285-125F-4C89-91D8-F5A7ABE99CF4} = {013031D8-CB63-476B-9B08-03DC2B4699E0}
+		{238C38BA-D3EC-4253-B6F8-64DFDBD9971A} = {C5433BF8-FDF5-4905-88C6-21A28655825E}
 	EndGlobalSection
 EndGlobal
