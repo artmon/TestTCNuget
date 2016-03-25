@@ -8,5 +8,8 @@ namespace Test
 {
     public class Foo
     {
+        public string Too { get; set; }
+
+        public string FullName { get; set; }
     }
 }
